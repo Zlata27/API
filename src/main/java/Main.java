@@ -6,11 +6,11 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
-        post.subscription = "true";
+        post.subscription = Boolean.parseBoolean("true");
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        post.birthday.day = Integer.parseInt("13");
+        post.birthday.month = Integer.parseInt("6");
+        post.birthday.year = Integer.parseInt("1999");
 
     }
 }
